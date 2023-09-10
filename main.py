@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 
 app = FastAPI()
 
-@app.get("/get_info")
+@app.get("/api")
 async def get_info(
     slack_name: str = Query(..., description="Slack name"),
     track: str = Query(..., description="Track"),
