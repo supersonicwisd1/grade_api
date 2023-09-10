@@ -16,8 +16,8 @@ async def get_info(
     utc_time_str = utc_time.strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # Define the GitHub URLs
-    github_file_url = f"https://github.com/{slack_name}/repo/blob/main/file_name.ext"
-    github_repo_url = f"https://github.com/{slack_name}/repo"
+    github_file_url = f"https://github.com/supersonicwisd1/grade_api/blob/main/main.py"
+    github_repo_url = f"https://github.com/supersonicwisd1/grade_api"
 
     # Create the response JSON
     response = {
