@@ -12,7 +12,7 @@ async def get_info(
     current_day = datetime.utcnow().strftime('%A')
 
     # Calculate UTC time with validation of +/-2 hours
-    utc_time = datetime.utcnow() + timedelta(hours=2)
+    utc_time = datetime.utcnow() + timedelta(hours=0)
     utc_time_str = utc_time.strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # Define the GitHub URLs
